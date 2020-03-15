@@ -1,0 +1,238 @@
+.search{
+    width: 40%;
+    display: inline-block;
+}
+
+.searchSubmit{
+    display: inline-block;
+    width: 20%;
+    border: 0;
+    background: lightgreen;
+    height: 50px;
+    border-radius: 300px;
+    cursor: pointer;
+}
+
+.largebande{
+    font-family: garamond;
+    margin-bottom: 3%;
+    color: white;
+    font-size: 25px;
+    width:  101.5%;
+    height: 12%;
+    padding-top:1%; 
+    padding-bottom: 1%;
+    background-color: lightgreen;
+    margin-top: 0;
+    margin-left: -1%;
+}
+
+.nvcita{
+    color: black;
+    margin-left: 30%;
+    width: 40%;
+    text-align: left;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.proposition{
+    background: url(src/0.jpg) no-repeat;
+    background-size:  cover;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #AA5;
+    background-color: #FFF7A6;
+    text-align: justify;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: cursive;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%; 
+     border-radius: 25px 70px;
+}
+
+.nvcitaAdmin{
+    color: black;
+    margin-left: 5%;
+    width: 40%;
+    text-align: left;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.listevalider{
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    height: 600px;
+    width: 50%;
+    overflow: scroll;
+}
+
+.citationpro{
+    font-family: georgia;
+    font-size: 40px;
+    color: white;
+    margin: 5%;
+    text-align: center;
+}
+
+.auteur{
+    font-family: georgia;
+    font-size: 20px;
+    color: white;
+    margin-right: 10%;
+    font-style: italic;
+    text-align: right;   
+}
+
+.citation{
+    background: url(src/0.jpg) no-repeat;
+    background-size: cover;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #AA5;
+    background-color: #FFF7A6;
+    text-align: justify;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: cursive;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border-radius: 25px 70px;
+    transition: 1s;
+}
+
+.citation:hover{
+    transform: scale(1.15,1.15);
+    border-color: lightgreen;
+}
+
+a {
+    text-decoration: none;
+}
+
+.popUp{
+    position:fixed;
+    top: 20%;
+  padding: 20px;
+  background: url(src/0.jpg);
+  color: white;
+    z-index: 1;
+    left:25%;
+    transition: 1s;
+    width: 50%;
+    text-align: left;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 1.5s;
+    text-align: center;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.adminSign{
+    width: 30%;
+    height: 50%;
+    padding: 1%; 
+    font-family: georgia;
+    font-size: 15px;
+    margin-left: 35%;
+}
+
+.notevisite{
+    width: 30%;
+    background: rgba(192,192,192,0.8);
+    padding: 1%;
+    z-index: 1;
+    transition: 1s;
+    text-align: left;
+    margin-top: 10%;
+    padding: 3%;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+.adminSign input{
+    margin: 2%;
+    font-family: cursive;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background: lightgreen;
+    margin: 4%;
+    margin-left: 10%;
+    border: 0;
+    font-family: georgia;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 300px;
+}
+
+form textarea{
+    font-family: georgia;
+    font-size: 30px;
+    width: 100%;
+    margin: 2%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.zonebiography{
+    font-size: 15px;
+}
+
+form input{
+    font-family: georgia;
+    font-size: 15px;
+    width: 50%;
+    margin: 2%;
+    border-top: 0;
+    border-left: 0;
+    border-right:0;
+}
+
+.info{
+    text-align: center;
+    font-family: georgia;
+    font-size: 15px;
+    color: grey;
+    font-style: oblique;
+}
+
+hr{
+    width: 70%;
+}
+
+a[href="#backup"]{
+    background: lightgreen;
+    color: white;
+    padding: 1%;
+    border-radius: 300px;
+    width: 5%;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    transition-duration: 2s;
+}
+
